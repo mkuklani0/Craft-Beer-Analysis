@@ -92,4 +92,4 @@ summary(MergedBeers$ABV)
 ### 7. Is there an apparent relationship between the bitterness of the beer and its alcoholic content? Draw a scatter plot.
 #### There seems to be an apparent relationship between the bitterness of the beer and its alcoholic content but the relatioship is very weak.
 ##Scatter plot between bitterness of beer and its alcoholic content
-plot(Beers$ABV~Beers$IBU)
+plot(ABV~IBU, data=MergedBeers)
